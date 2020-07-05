@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Projeto flex box</title>
+</head>
+<body>
+    <header>
+        <h1>Flex box</h1>
+
+        <div class="select">
+
+            <div class="direction">
+
+                <span>Flex-direction</span>
+                <select name="flex-direction" id="flex-direction">
+                    <option value="row">Row</option>
+                    <option value="column">Column</option>
+                    <option value="row-reverse">Row-reverse</option>
+                    <option value="column-reverse">Column-reverse</option>
+                </select>
+
+            </div>
+
+            <div class="justify">
+
+                <span>Justify-content</span>
+                <select name="justify-content" id="justify-content">
+                    <option value="flex-start">Flex-start</option>
+                    <option value="center">Center</option>
+                    <option value="flex-end">Flex-end</option>
+                    <option value="space-around">Space-arround</option>
+                    <option value="space-between">Space-between</option>
+                </select>
+
+            </div>
+
+            <div class="align">
+
+                <span>Align-itens</span>
+                <select name="align-items" id="align">
+                    <option value="flex-start">Flex-start</option>
+                    <option value="center">Center</option>
+                    <option value="flex-end">Flex-end</option>
+                </select>
+
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div class="dad">
+            <div class="son">
+                <span>Elemento 1</span>
+            </div>
+            <div class="son">
+                <span>Elemento 2</span>
+            </div>
+        </div>
+    </main>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
