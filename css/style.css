@@ -6,10 +6,11 @@
 
 html, body {
     height: 100%;
+    font-family:'Ubuntu', sans-serif;;
 }
 
 body {
-    background-color: rgb(19, 19, 58);
+    background-color: rgb(10, 16, 68);
 }
 
 header h1 {
@@ -43,6 +44,9 @@ header h1 {
     font: 10px;
     border-radius: 8px;
 }
+.select option {
+    font-family: 'Ubuntu', sans-serif;
+}
 
 .dad {
     display: flex;
@@ -50,8 +54,8 @@ header h1 {
     background-color: #fff;
     border: 2px solid black;
     margin: 10px auto ;
-    width: 1200px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 
     
 }
@@ -59,7 +63,7 @@ header h1 {
 .son {
     display: inline-block;
     
-    background-color: rgb(0, 15, 155);
+    background-color: rgb(10, 16, 68);
     border: 2px solid black;
     box-shadow: 5px 5px 5px rgb(65, 65, 65);
 
@@ -73,7 +77,8 @@ header h1 {
     display: block;
     color: #fff;
     font-size: 25px;
-    padding: 30px;
+    padding: 25px;
+    margin-top: 20px;
 }
 
 
